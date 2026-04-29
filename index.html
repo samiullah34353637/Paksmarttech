@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PakSmart Tech is a modern electronics shopping demo for mobiles, laptops, accessories, gadgets, deals, and buying guides." />
+    <title>PakSmart Tech | Electronics Store</title>
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#home" aria-label="PakSmart Tech home">
+        <span class="brand-mark">PT</span>
+        <span>PakSmart Tech</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="mobiles.html">Mobiles</a>
+        <a href="laptops.html">Laptops</a>
+        <a href="accessories.html">Accessories</a>
+        <a href="gadgets.html">Gadgets</a>
+        <a href="guides.html">Guides</a>
+      </nav>
+      <a class="header-action" href="product.html">Deal of the Day</a>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy reveal">
+          <span class="deal-badge">Limited time tech deals</span>
+          <h1>Premium electronics, smarter prices.</h1>
+          <p>
+            Discover smartphones, laptops, accessories, and everyday gadgets in
+            a fast, clean shopping experience built for trust and easy browsing.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#featured">View Featured</a>
+            <a class="button ghost" href="#products">Browse Products</a>
+          </div>
+          <div class="trust-strip" aria-label="Store highlights">
+            <span>Fast delivery</span>
+            <span>Verified stock</span>
+            <span>Secure checkout</span>
+          </div>
+        </div>
+
+        <div class="promo-card reveal">
+          <span class="promo-label">Featured bundle</span>
+          <img
+            src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1100&q=80"
+            alt="Premium laptop on desk"
+          />
+          <div class="promo-content">
+            <p>Creator Pro Laptop + Wireless Kit</p>
+            <strong>Save up to 18%</strong>
+          <a href="product.html">Quick view</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="categories" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Shop by category</p>
+          <h2>Everything tech buyers look for.</h2>
+        </div>
+        <div class="category-grid">
+          <a class="category-card reveal" href="mobiles.html">
+            <span>01</span>
+            <h3>Mobiles</h3>
+            <p>Flagship, midrange, and budget smartphones.</p>
+          </a>
+          <a class="category-card reveal" href="laptops.html">
+            <span>02</span>
+            <h3>Laptops</h3>
+            <p>Work, study, gaming, and creator machines.</p>
+          </a>
+          <a class="category-card reveal" href="gadgets.html">
+            <span>03</span>
+            <h3>Accessories</h3>
+            <p>Chargers, earbuds, keyboards, and cases.</p>
+          </a>
+          <a class="category-card reveal" href="accessories.html">
+            <span>04</span>
+            <h3>Gadgets</h3>
+            <p>Smart watches, cameras, speakers, and home tech.</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="featured" class="section featured-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Featured products</p>
+          <h2>Popular picks with premium presentation.</h2>
+        </div>
+        <div class="featured-grid">
+          <article class="product-card featured reveal" data-category="mobiles">
+            <span class="discount">-12%</span>
+            <img
+              src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=900&q=80"
+              alt="Smartphone with blue wallpaper"
+            />
+            <div class="product-info">
+              <p class="product-type">Mobile</p>
+              <h3>Nova X Pro 5G</h3>
+              <p>AMOLED display, 256GB storage, fast charging.</p>
+              <div class="price-row">
+                <strong>Rs. 184,999</strong>
+                <a class="mini-button" href="product.html">Quick View</a>
+              </div>
+            </div>
+          </article>
+          <article class="product-card featured reveal" data-category="laptops">
+            <span class="discount">Hot</span>
+            <img
+              src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80"
+              alt="Laptop on workspace"
+            />
+            <div class="product-info">
+              <p class="product-type">Laptop</p>
+              <h3>ZenBook Air 14</h3>
+              <p>Lightweight metal body, 16GB RAM, 1TB SSD.</p>
+              <div class="price-row">
+                <strong>Rs. 269,999</strong>
+                <a class="mini-button" href="product.html">Quick View</a>
+              </div>
+            </div>
+          </article>
+          <article class="product-card featured reveal" data-category="accessories">
+            <span class="discount">-20%</span>
+            <img
+              src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?auto=format&fit=crop&w=900&q=80"
+              alt="Wireless earbuds case"
+            />
+            <div class="product-info">
+              <p class="product-type">Accessory</p>
+              <h3>Pulse Buds Max</h3>
+              <p>Noise cancellation, low latency, 36-hour case.</p>
+              <div class="price-row">
+                <strong>Rs. 18,499</strong>
+                <a class="mini-button" href="product.html">Quick View</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="deal-section">
+        <div class="deal-panel reveal">
+          <div>
+            <p class="eyebrow">Best deals</p>
+            <h2>Upgrade your setup for less.</h2>
+            <p>
+              Build a complete desk setup with selected laptops, wireless
+              accessories, and audio gear at discounted bundle prices.
+            </p>
+          </div>
+          <a class="button primary" href="product.html">Explore Discounts</a>
+        </div>
+      </section>
+
+      <section id="products" class="section">
+        <div class="shop-heading reveal">
+          <div>
+            <p class="eyebrow">Product grid</p>
+            <h2>Filter by category.</h2>
+          </div>
+          <div class="filters" aria-label="Product filters">
+            <button class="filter active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="mobiles">Mobiles</button>
+            <button class="filter" type="button" data-filter="laptops">Laptops</button>
+            <button class="filter" type="button" data-filter="accessories">Accessories</button>
+            <button class="filter" type="button" data-filter="gadgets">Gadgets</button>
+          </div>
+        </div>
+        <div class="product-grid" id="productGrid">
+          <article class="product-card reveal" data-category="mobiles">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80" alt="Smartphone product" />
+            <div class="product-info">
+              <p class="product-type">Mobile</p>
+              <h3>Galaxy Edge Mini</h3>
+              <p>Compact phone with smooth display.</p>
+              <strong>Rs. 89,999</strong>
+            </div>
+          </article>
+          <article class="product-card reveal" data-category="laptops">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Laptop screen product" />
+            <div class="product-info">
+              <p class="product-type">Laptop</p>
+              <h3>WorkMate 15</h3>
+              <p>Reliable laptop for office and study.</p>
+              <strong>Rs. 149,999</strong>
+            </div>
+          </article>
+          <article class="product-card reveal" data-category="accessories">
+            <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=900&q=80" alt="Headphones product" />
+            <div class="product-info">
+              <p class="product-type">Accessory</p>
+              <h3>Studio Headset</h3>
+              <p>Clear calls and balanced music audio.</p>
+              <strong>Rs. 12,999</strong>
+            </div>
+          </article>
+          <article class="product-card reveal" data-category="gadgets">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80" alt="Smart watch product" />
+            <div class="product-info">
+              <p class="product-type">Gadget</p>
+              <h3>Fit Watch S2</h3>
+              <p>Fitness tracking and phone alerts.</p>
+              <strong>Rs. 21,499</strong>
+            </div>
+          </article>
+          <article class="product-card reveal" data-category="accessories">
+            <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80" alt="Keyboard product" />
+            <div class="product-info">
+              <p class="product-type">Accessory</p>
+              <h3>MechKey Compact</h3>
+              <p>Wireless mechanical keyboard.</p>
+              <strong>Rs. 16,999</strong>
+            </div>
+          </article>
+          <article class="product-card reveal" data-category="gadgets">
+            <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=80" alt="Bluetooth speaker product" />
+            <div class="product-info">
+              <p class="product-type">Gadget</p>
+              <h3>RoomSound Go</h3>
+              <p>Portable speaker with deep bass.</p>
+              <strong>Rs. 9,999</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="reviews" class="section reviews-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Customer reviews</p>
+          <h2>Trust signals for better conversions.</h2>
+        </div>
+        <div class="review-grid">
+          <article class="review-card reveal">
+            <strong>"Clean product pages and quick support."</strong>
+            <p>The site feels simple and premium. I found a laptop deal in minutes.</p>
+            <span>Ali Raza, Lahore</span>
+          </article>
+          <article class="review-card reveal">
+            <strong>"Great for comparing electronics."</strong>
+            <p>Filters and categories make browsing easy on mobile.</p>
+            <span>Hina Malik, Karachi</span>
+          </article>
+          <article class="review-card reveal">
+            <strong>"Fast, modern, and trustworthy."</strong>
+            <p>The layout gives confidence before buying expensive gadgets.</p>
+            <span>Usman Khan, Islamabad</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="newsletter-section">
+        <div class="newsletter reveal">
+          <div>
+            <p class="eyebrow">Deal alerts</p>
+            <h2>Get price drops in your inbox.</h2>
+          </div>
+          <form id="newsletterForm">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p id="newsletterMessage" role="status"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <a class="brand footer-brand" href="index.html#home">
+          <span class="brand-mark">PT</span>
+          <span>PakSmart Tech</span>
+        </a>
+        <p>Modern electronics shopping interface for mobiles, laptops, accessories, and gadgets.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mobiles.html">Mobiles</a>
+        <a href="laptops.html">Laptops</a>
+        <a href="accessories.html">Accessories</a>
+        <a href="gadgets.html">Gadgets</a>
+        <a href="guides.html">Guides</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:support@paksmarttech.example">support@paksmarttech.example</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
