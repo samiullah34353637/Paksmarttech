@@ -1,0 +1,9 @@
+{
+  "name": "PakSmart Tech",
+  "short_name": "PakSmart",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#1f66ff",
+  "description": "Modern electronics shopping website for mobiles, laptops, accessories, and gadgets."
+}
